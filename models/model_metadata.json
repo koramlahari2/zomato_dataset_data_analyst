@@ -1,0 +1,30 @@
+{
+  "best_model_name": "Random Forest",
+  "model_path": "models\\best_model.joblib",
+  "feature_names": [
+    "distance_km",
+    "order_hour",
+    "order_day_of_week",
+    "order_month",
+    "is_weekend",
+    "is_peak_hour",
+    "pickup_wait_min",
+    "Delivery_person_Age",
+    "Delivery_person_Ratings",
+    "multiple_deliveries",
+    "Vehicle_condition",
+    "traffic_encoded",
+    "weather_encoded",
+    "city_encoded",
+    "vehicle_encoded",
+    "order_type_encoded",
+    "festival_encoded"
+  ],
+  "target": "Time_taken (min)",
+  "test_mae": 3.265,
+  "test_rmse": 4.138,
+  "test_r2": 0.8059,
+  "train_rows": 36467,
+  "test_rows": 9117,
+  "random_state": 42
+}

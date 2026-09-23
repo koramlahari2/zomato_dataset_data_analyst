@@ -1,0 +1,6 @@
+model,train_mae,test_mae,train_rmse,test_rmse,train_r2,test_r2,overfit
+Random Forest,2.801,3.265,3.571,4.138,0.8551,0.8059,NO
+Gradient Boosting,3.277,3.399,4.119,4.274,0.8072,0.793,NO
+Decision Tree,3.42,3.569,4.365,4.543,0.7836,0.766,NO
+Ridge Regression,5.13,5.157,6.476,6.507,0.5236,0.5201,NO
+Linear Regression,5.13,5.157,6.476,6.507,0.5236,0.5201,NO
